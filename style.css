@@ -1,0 +1,72 @@
+h1{
+	color: blue
+
+	}
+body{
+	font-family: 'Space Grotesk', sans-serif;
+	background-color: rgb(245,245,245);
+}
+
+.banner{
+text-align: center;
+background-image: . url(images/background.jpg);
+background: cover; 
+padding: 20px 
+}
+.card{
+border-radius: 6px; 
+box-shadow: 4px 4px 10px rgba(0,0,0,0.3); 
+padding: 16px
+background-color: rgb(245,245,245);
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-gap: 16px; 
+}
+
+.cards10{
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+	grid-gap: 16px; 
+}
+
+.cards1{
+	display: grid;
+	grid-template-columns: 1fr; 
+	grid-gap: 16px; 
+}
+
+
+.button{
+	padding: 10px 15px
+	border-radius: 6px;
+	box-shadow: 4px 4px 10px;
+}
+
+.card-image{
+	width: 100%; 
+}
+
+.card-image2{
+	width: 60%
+}
+.main-section{
+max-width: 
+
+}
+
+img{
+	width: 100%
+}
+
+@media screen and (max-width: 767px){
+
+	.cards{
+		grid-template-columns: 1fr; 
+	}
+
+}
+
+
